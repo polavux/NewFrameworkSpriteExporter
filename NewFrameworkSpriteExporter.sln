@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewFrameworkSpriteExporter", "NewFrameworkSpriteExporter\NewFrameworkSpriteExporter.csproj", "{E9A38D1C-CC3A-486B-9809-E0170BADD0ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A38D1C-CC3A-486B-9809-E0170BADD0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A38D1C-CC3A-486B-9809-E0170BADD0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A38D1C-CC3A-486B-9809-E0170BADD0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A38D1C-CC3A-486B-9809-E0170BADD0ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F31E040-3C77-48A4-9027-FFD6725E82B0}
+	EndGlobalSection
+EndGlobal
