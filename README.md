@@ -4,7 +4,7 @@ NewFrameworkSpriteExporter is a tool for rendering sprites from games made in ``
 
 This tool is a fan project and is not affiliated with Ninja Kiwi. This tool does not work with password-protected assets.
 
-This tool is a work in progress and has not been thoroughly tested on every possible sprite. This may not support all features of NewFramework sprites due to a lack of documentation.
+This tool is a work in progress and has not been thoroughly tested on every possible sprite. This tool was created by black box testing of NewFramework sprites; due to a lack of official documentation of their proprietary format and rendering pipeline, this may have inaccuracies and may not support all features.
 
 Made in .NET Framework 9.0 in Visual Studio 2022. All image manipulation is powered by Magick.NET.
 
