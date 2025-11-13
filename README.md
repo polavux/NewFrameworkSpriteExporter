@@ -8,7 +8,10 @@ This tool is a work in progress and has not been thoroughly tested on every poss
 
 Made in .NET Framework 9.0 in Visual Studio 2022. All image manipulation is powered by Magick.NET.
 
-<p align="center"><img src="example.png" alt="Example of a sprite exported using this tool. The original texture atlas is on top, and the output is on the bottom." width="50%" caption="A"/></p>
+<img src="Bloon_Inflation_Factory_atlas.png" alt="Example of a texture atlas"/>
+Texture atlas
+<img src="Bloon_Inflation_Factory_render.png" alt="Example of a rendered sprite"/>
+Rendered sprite
 
 ## Usage
 When you open the program, it displays a GUI. To render a sprite, first choose a destination for the following three specifications:
