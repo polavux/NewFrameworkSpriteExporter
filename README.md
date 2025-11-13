@@ -1,8 +1,8 @@
 # NewFrameworkSpriteExporter
 
-NewFrameworkSpriteExporter is a tool for rendering sprites from games made in ```NewFramework``` (what seems to be the name of the proprietary framework used in several games developed by Ninja Kiwi Europe, such as Bloons TD 5 and SAS: Zombie Assault 4) and exporting frames as images.
+NewFrameworkSpriteExporter is a tool for rendering sprites from games made in ```NewFramework``` (what seems to be the name of the proprietary framework used in several games developed by Ninja Kiwi Europe, such as Bloons TD 5 and SAS: Zombie Assault 4) and exporting frames as images. These sprites are composed of cells loaded from one or more texture atlases and combined with different positions, scaling, rotation, and other modifiers specified using one or more JSON files.
 
-This tool is a fan project and is not affiliated with Ninja Kiwi. This tool does not work with password-protected assets.
+This tool is a fan project and is not affiliated with Ninja Kiwi. This tool does not provide access to assets that are normally password-protected in the original game files; those must be extracted through some other means for this tool to work.
 
 This tool is a work in progress and has not been thoroughly tested on every possible sprite. This tool was created by black box testing of NewFramework sprites; due to a lack of official documentation of their proprietary format and rendering pipeline, this may have inaccuracies and may not support all features.
 
@@ -11,7 +11,7 @@ Made in .NET Framework 9.0 in Visual Studio 2022. All image manipulation is powe
 <p align="center"><img src="example.png" alt="Example of a sprite exported using this tool. The original texture atlas is on top, and the output is on the bottom." width="50%" caption="A"/></p>
 
 ## Usage
-When you open the program, it displays a GUI.
+When you open the program, it displays a GUI. To render a sprite, first choose a destination for the following three specifications:
 * Select the sprite (JSON file) you want to render. Note that any child sprites need to be in the same directory as the selected file.
 * Select the folder where the texture atlas(es) are. This folder should contain all required texture atlasas and their corresponding XML files defining the bounds of each cell of the sprite.
 * Select the folder to output the rendered images in.
