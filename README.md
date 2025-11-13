@@ -11,8 +11,8 @@ Made in .NET Framework 9.0 in Visual Studio 2022. All image manipulation is powe
 ## Usage
 When you open the program, it displays a GUI.
 * Select the sprite (JSON file) you want to render. Note that any child sprites need to be in the same directory as the selected file.
-* Select the folder where the texture atlas(es) are.
-* Select the folder to output rendered images in.
+* Select the folder where the texture atlas(es) are. This folder should contain all required texture atlasas and their corresponding XML files defining the bounds of each cell of the sprite.
+* Select the folder to output the rendered images in.
 
 Once all three are set up, simply press "render single frame" to render the first frame of the sprite, or "render animation" to render every frame of the animation. Each completed frame is displayed in a preview window on the right.
 
